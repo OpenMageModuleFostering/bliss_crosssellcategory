@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bliss_Crosssellcategory</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A simple extension that lets users display products from a particular category on the cart page in place of the usual crosssell products.&#xD;
+</summary>
+    <description>Manually assigning crosssell products in your catalog can be time consuming - this extension lets you use products from a designated category instead.</description>
+    <notes>Tested in Magento 1.5 - 1.7.0.2</notes>
+    <authors><author><name>James Harrison</name><user>jharrisonau</user><email>jharrison.au@gmail.com</email></author><author><name>Bliss Media</name><user>phonho</user><email>phong@blissmedia.com.au</email></author></authors>
+    <date>2013-02-11</date>
+    <time>05:29:13</time>
+    <contents><target name="magecommunity"><dir name="Bliss"><dir name="Crosssellcategory"><dir name="Block"><dir name="Cart"><file name="Crosssell.php" hash="7081184aa7c8f7346f7938426fad78c0"/></dir><file name=".DS_Store" hash="14afb1a1943dbda5e10352e586a0761b"/></dir><dir name="etc"><file name="config.xml" hash="990118e837292b894e347683a8f6642a"/><file name="system.xml" hash="499322e216b75d37f8a737e31269afe8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bliss_Crosssellcategory.xml" hash="34e1fc59aa8fd2b5b00846d9feeb4ad6"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Checkout</name><channel>community</channel><min></min><max></max></package></required></dependencies>
+</package>
