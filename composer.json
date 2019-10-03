@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Bliss_Crosssellcategory",
-    "type": "magento-module",
-    "license": "GPL",
-    "homepage": "",
-    "description": "A simple extension that lets users display products from a particular category on the cart page in place of the usual crosssell products.
-",
-    "authors": [
-    {
-        "name": "James Harrison",
-        "email": "jharrison.au@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
